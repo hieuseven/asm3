@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  .container1,
+  section > .container2,
+  section > .container3,
+  section > .container4,
+  section > .container5,
+  section > .container6 {
+    display: block;
+  }
+  .nav-size {
+    display: block;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: x-large;
+  }
+
+  .nav-sizes {
+    display: none;
+  }
+  #nav-bar {
+    text-align: left;
+  }
+  body {
+    font-size: xx-large;
+  }
+  .pro {
+    display: block;
+  }
+  .certi {
+    display: block;
+  }
+  /* Chỉnh sửa phần digital cv*/
+  #tonghop {
+    display: block;
+  }
+  .scope {
+    display: block;
+  }
+}
