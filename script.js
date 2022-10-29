@@ -13,6 +13,7 @@ btnSubmit.addEventListener("click", function () {
     forms.classList.add("hidden");
     return true;
   } else {
+    info.classList.add("hidden");
     alert("You have entered an invalid email address!");
     return false;
   }

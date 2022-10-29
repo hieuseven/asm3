@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .tong {
     padding: 0px;
   }
@@ -9,9 +9,13 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .nav-size {
+    border: none;
+  }
   .lienhe {
     margin: 0px;
   }
+
   .container1 {
     grid-template-rows: 500px;
   }
@@ -24,12 +28,13 @@
   #personal-info {
     padding-left: 20px;
   }
+
   section > .container3 {
     display: grid;
     padding: 0px;
-    grid-template-columns: 45% 45%;
-    gap: 40px;
-    margin-left: 10px;
+    grid-template-columns: 48% 48%;
+    gap: 10px;
+    margin: 0 10px;
   }
 
   .border2 {
@@ -46,6 +51,7 @@
   }
   .border3 {
     grid-area: 3/2/4/3;
+    width: 100%;
   }
   #certificate {
     margin: 0px;
@@ -67,5 +73,14 @@
   }
   .scope {
     display: block;
+  }
+  .CV1 {
+    height: 132px;
+  }
+  .CV2 {
+    height: 83px;
+  }
+  .CV3 {
+    height: 84px;
   }
 }
